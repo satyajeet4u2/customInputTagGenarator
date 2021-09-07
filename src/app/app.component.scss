@@ -1,0 +1,27 @@
+.tag-item-list {
+    margin-bottom: 10px;
+    .ath-item {
+      min-width: 50px;
+      width: auto;
+      margin: 10px 10px 0 0;
+      display: inline-block;
+      padding: 9px 27px;
+      border-radius: 20.5px;
+      background-color: #f3f3f3;
+      position: relative;
+      span{
+        margin-right: 10px;
+        font-size: 13px;
+        color: #000000;
+      }
+      .remove-icon{
+        cursor: pointer;
+        position: absolute;
+        bottom: 5px;
+        span{
+          font-size: 18px;
+          color: red;
+        }
+      }
+    }
+  }
